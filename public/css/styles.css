@@ -1,0 +1,158 @@
+/* Global Definitions */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", arial, helvetica, verdana, sans-serif;
+    font-size: 0.825em;
+    color: #727170;
+}
+
+a {
+    font-weight: normal;
+    text-decoration: none;
+    color: #0493dd;
+}
+
+a:hover {
+    font-weight: normal;
+    text-decoration: underline;
+    color: #ff681f;
+}
+
+img {
+    border: 0;
+}
+
+h2 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 2.0em;
+}
+
+p {
+    margin: 0 0 15px 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+h1 {
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+    font-weight: normal;
+    font-size: 2.4em;
+}
+
+h2 {
+    margin: 0 0 8px 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 2.0em;
+}
+
+h3 {
+    margin: 0 0 6px 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 1.6em;
+}
+
+dl {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+dt {
+    margin: 0;
+    padding: 0 0 2px 0;
+}
+
+dd {
+    margin: 0;
+    padding: 0 0 8px 0;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header {
+    margin: 2% auto 2% auto;
+    padding: 0;
+    width: 96%;
+    height: 320px;
+    background-color: #ce5403;
+    background-image: url(http://popphp.org/img/pop-php-logo-white.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: inset 0 0 30px 10px #893501;
+}
+
+header > h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header > h1 > a {
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+    height: 320px;
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+footer {
+    margin: 2% auto 2% auto;
+    padding: 1% 2% 1% 2%;
+    width: 92%;
+    height: 40px;
+    font-size: 0.825em;
+    border-top: solid 1px #ccc;
+    text-align: right;
+}
+
+/* ID Definitions */
+
+#content {
+    margin: 0 auto;
+    padding: 1% 2% 1% 2%;
+    width: 92%;
+    min-height: 240px;
+}
+
+/* Class Definitions */
+
+.underline {
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    border-bottom: solid 1px #ccc;
+}
+
+.post {
+    margin: 5px auto 5px auto;
+    padding: 5px 0 5px 0;
+    border-bottom: solid 1px #ccc;
+}
+
+.post > h5 {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.post > h4 {
+    margin: 0;
+    padding: 0;
+}
