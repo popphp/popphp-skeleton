@@ -1,6 +1,6 @@
 <?php
 
-namespace Tutorial\Controller;
+namespace Skeleton\Controller;
 
 use Pop\Controller\AbstractController;
 use Pop\Http\Request;
@@ -25,6 +25,15 @@ class IndexController extends AbstractController
     {
         $view = new View($this->viewPath . '/index.phtml');
         $view->title = 'Welcome';
+
+        $this->response->setBody($view->render());
+        $this->response->send();
+    }
+
+    public function hello($name = null)
+    {
+        $view = new View($this->viewPath . '/hello.phtml');
+        $view->title = 'Hello, ' . ((null !== $name) ? ucfirst($name) : ' World') . '!';
 
         $this->response->setBody($view->render());
         $this->response->send();
