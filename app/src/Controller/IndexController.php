@@ -33,7 +33,7 @@ class IndexController extends AbstractController
     public function hello($name = null)
     {
         $view = new View($this->viewPath . '/hello.phtml');
-        $view->title = 'Hello, ' . ((null !== $name) ? ucfirst($name) : ' World') . '!';
+        $view->name = ((null !== $name) ? ucfirst($name) : ' World');
 
         $this->response->setBody($view->render());
         $this->response->send();
@@ -42,7 +42,7 @@ class IndexController extends AbstractController
     public function error()
     {
         $view = new View($this->viewPath . '/error.phtml');
-        $view->title = 'Error';
+        $view->title = 'Error - Page Not Found.';
 
         $this->response->setBody($view->render());
         $this->response->send(404);
