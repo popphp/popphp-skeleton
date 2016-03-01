@@ -30,15 +30,6 @@ class IndexController extends AbstractController
         $this->response->send();
     }
 
-    public function hello($name = null)
-    {
-        $view = new View($this->viewPath . '/hello.phtml');
-        $view->name = ((null !== $name) ? ucfirst($name) : ' World');
-
-        $this->response->setBody($view->render());
-        $this->response->send();
-    }
-
     public function error()
     {
         $view = new View($this->viewPath . '/error.phtml');

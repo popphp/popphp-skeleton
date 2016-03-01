@@ -1,5 +1,11 @@
 <?php
 
 return [
-    'routes' => include __DIR__ . '/routes.php'
+    'routes' => [
+        '/' => [
+            'controller' => 'Skeleton\Controller\IndexController',
+            'action'     => 'index',
+            'default'    => true
+        ]
+    ]
 ];
