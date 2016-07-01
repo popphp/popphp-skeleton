@@ -20,9 +20,9 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "popphp/popphp": "2.0.*",
-        "popphp/pop-http": "2.0.*",
-        "popphp/pop-view": "2.0.*"
+        "popphp/popphp": "2.1.*",
+        "popphp/pop-http": "2.1.*",
+        "popphp/pop-view": "2.1.*"
     },
     "autoload": {
         "psr-4": {"Skeleton\\": "app/src/"}
