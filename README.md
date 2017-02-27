@@ -40,6 +40,6 @@ for your name to see the result on the page.
 NOTES
 -----
 
-* The skeleton application uses the `pop-view` component to create and render teh views.
+* The skeleton application uses the `pop-view` component to create and render the views.
 * The web application is utilizing the `pop-http` component to leverage the HTTP request and
 response objects within the controller object.
