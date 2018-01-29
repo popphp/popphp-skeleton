@@ -10,7 +10,7 @@
         "pop php"
     ],
     "homepage": "http://www.popphp.org/",
-    "license": "New BSD",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Nick Sagona",
@@ -20,9 +20,9 @@
     ],
     "require": {
         "php": ">=5.6.0",
-        "popphp/popphp": ">=3.1.0",
-        "popphp/pop-http": ">=3.0.0",
-        "popphp/pop-view": ">=3.0.0"
+        "popphp/popphp": "^3.2.2",
+        "popphp/pop-http": "^3.0.4",
+        "popphp/pop-view": "^3.0.2"
     },
     "autoload": {
         "psr-4": {"Skeleton\\": "app/src/"}

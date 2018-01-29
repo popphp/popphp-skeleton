@@ -89,13 +89,13 @@ header {
     padding: 0;
     width: 96%;
     height: 320px;
-    background-color: #ce5403;
-    background-image: url(http://popphp.org/img/pop-php-logo-white.png);
-    background-size: 200px 200px;
+    background-color: #e27f46;
+    background-image: url(https://www.popphp.org/assets/img/pop-php-logo-shadow.png);
+    background-size: 480px 267px;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 15px;
-    box-shadow: inset 0 0 30px 10px #893501;
+    box-shadow: inset 0 0 30px 10px #b2541e;
 }
 
 header > h1 {
