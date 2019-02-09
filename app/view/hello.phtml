@@ -26,11 +26,16 @@
         <p>
             And welcome to Pop!
         </p>
+        <input id="name" name="name" value="" size="25" placeholder="Enter your name..." /> <button type="button" id="hello">Say Hello!</button>
     </div>
 <!-- Footer //-->
     <footer>
         <a href="http://www.popphp.org/" target="_blank">Pop PHP Framework</a> on <a href="https://github.com/popphp/" target="_blank">Github</a>.
     </footer>
 </body>
-
+<script type="text/javascript">
+    document.getElementById('hello').onclick = function(e){
+        window.location = '/hello/' + document.getElementById('name').value;
+    };
+</script>
 </html>

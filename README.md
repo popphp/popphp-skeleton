@@ -27,8 +27,13 @@ Once installed, the main web access point is at `public/index.php`.
 BASIC USAGE
 -----------
 
-While running the built-in PHP web server with `php -S localhost:8000 -t public`,
-try accessing the web application at these routes:
+Start the web server by running:
+
+```bash
+$ ./kettle serve
+```
+
+And then you can access the web application at these routes:
 
     http://localhost:8000/
     http://localhost:8000/hello
