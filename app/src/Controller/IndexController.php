@@ -3,8 +3,8 @@
 namespace Skeleton\Controller;
 
 use Pop\Controller\AbstractController;
-use Pop\Http\Request;
-use Pop\Http\Response;
+use Pop\Http\Server\Request;
+use Pop\Http\Server\Response;
 use Pop\View\View;
 
 class IndexController extends AbstractController
