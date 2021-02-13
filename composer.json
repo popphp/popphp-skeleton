@@ -19,11 +19,11 @@
         }
     ],
     "require": {
-        "php": ">=7.1.0",
-        "popphp/popphp": "^3.4.1",
-        "popphp/pop-http": "^4.0.3",
-        "popphp/pop-kettle": "^1.3.0",
-        "popphp/pop-view": "^3.2.0"
+        "php": ">=7.3.0",
+        "popphp/popphp": "^3.7.0",
+        "popphp/pop-http": "^4.1.0",
+        "popphp/pop-kettle": "^1.6.0",
+        "popphp/pop-view": "^3.3.0"
     },
     "autoload": {
         "psr-4": {"Skeleton\\": "app/src/"}
