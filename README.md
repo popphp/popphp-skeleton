@@ -1,6 +1,11 @@
 Pop PHP Skeleton Application
 ============================
 
+## END OF LIFE
+
+This repository is no longer supported. The Pop PHP Framework v7 can easily create a modern Pop application via the
+`kettle` CLI tool. In addition to that, the documentation website provides detailed information on how to use Pop.
+
 [![Join the chat at https://discord.gg/TZjgT74U7E](https://media.popphp.org/img/discord.svg)](https://discord.gg/TZjgT74U7E)
 
 * [Overview](#overview)
